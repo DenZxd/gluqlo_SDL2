@@ -10,7 +10,7 @@ Some Linux distros (ie. Arch) have recently replaced the `sdl` package with `sdl
 
 Installing after download tarball or zip:
 
-1. unpack and go to folder
+unpack and go to folder
 
 sudo apt-get install build-essential libsdl1.2-dev libsdl-ttf2.0-dev libsdl-gfx1.2-dev libx11-dev
 

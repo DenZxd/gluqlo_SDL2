@@ -10,19 +10,24 @@ Some Linux distros (ie. Arch) have recently replaced the `sdl` package with `sdl
 
 Installing after download tarball or zip:
 
-unpack and go to folder
+unpack and go to folder, next install
 
 sudo apt-get install build-essential libsdl1.2-dev libsdl-ttf2.0-dev libsdl-gfx1.2-dev libx11-dev
 
 next:
+
 make && sudo make install
 
 If you have some errors then install this (and another library if you need):
+
 sudo apt update && sudo apt install libsdl2-gfx-dev
 
 then run:
+
 make && sudo make install
 
+
 best to use this screensaver:
+
 sudo apt update
 sudo apt install xfce4-screensaver
